@@ -1,0 +1,36 @@
+[site]
+title = "Yanxi Li"
+last_updated = "2026-10-04"
+[author]
+name = "Yanxi Li"
+title = "MSc Physics · King’s College London"
+
+[[navigation]]
+title = "关于我"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "教育与经历"
+target = "experience"
+href = "/experience/"
+
+[[navigation]]
+title = "研究与项目"
+target = "projects"
+href = "/projects/"
+
+[[navigation]]
+title = "简历"
+target = "cv"
+href = "/cv/"
+
+[[navigation]]
+title = "联系"
+target = "contact"
+href = "/contact/"
+
+[[navigation]]
+title = "资料问答"
+target = "ask"
+href = "/ask/"
