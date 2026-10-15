@@ -10,6 +10,10 @@
 
 ## 研究与项目
 
+### Fairway Desk · CRM 原型
+
+独立构建的高尔夫俱乐部会员咨询本地原型，使用 Next.js/React、Node.js 路由接口和 SQLite。以模拟资料记录联系人、咨询、负责人、阶段、下次跟进和活动历史。邮件同步、俱乐部权限与生产部署仍是后续工作。
+
 ### Regime Switching 与多专家市场预测
 
 2026年4–6月。研究以19只 A 股及 ETF 的2018–2024年日频数据构建6维特征和20日窗口，用 Gaussian HMM 识别5类市场状态；对照全局与状态条件 LR、XGBoost、MLP、LSTM，并以训练消融、路由一致率和专家利用率诊断 MoE 门控。个人代码与实验分工仍待补充。
@@ -18,9 +22,9 @@
 
 研究文档报告：19标的历史留出测试中，XGBoost 平均方向准确率51.4% → 56.3%（+4.9个百分点）；3/4模型通过报告所用的多重比较校正门槛。可学习 MoE 门控未超过直接 HMM 硬路由。这是预测准确率，不是交易收益；实验尚未独立复验。
 
-### 机器学习多因子选股研究
+### 防数据泄漏的选股研究
 
-个人独立项目 · 2025年9月–2026年1月。构建动量、价值、质量因子，对比 Random Forest 与 XGBoost；用 PyTorch 搭建 LSTM 和 Transformer，以自注意力研究因子关系；搭建 Backtrader 事件驱动回测框架。尚未提供已验证业绩或公开代码链接。
+公开 Python 项目：以小规模 A 股样本、7 个价量因子和时间顺序评估，对比 Ridge、Random Forest 与 HistGradientBoosting。冻结测试未得出正向结果。代码：github.com/laflame3/ml-quant-stock-selection。
 
 ## 实习经历
 
@@ -56,7 +60,7 @@
 
 ### 工具与方法
 
-Python、pandas、NumPy、Matplotlib；结合 PyTorch 和 Backtrader 进行模型研究与策略回测。关注 Codex、Claude、OpenCode 在研究工作流中的应用。不声明实测效率提升。
+Next.js、React、JavaScript、Node.js 路由接口、Python、pandas、SQLite/SQL 基础、Git/GitHub 与 Linux；有 Agent 和数据工作流设计经验。不声明生产级 SaaS 部署。
 
 
 ## 获奖经历

@@ -10,6 +10,10 @@ BSc Physics (International Programme) · September 2021–June 2026 · Shanghai,
 
 ## Research & projects
 
+### Fairway Desk · CRM Prototype
+
+Independent local prototype for a golf club membership enquiry workflow. Built with Next.js/React, Node.js route handlers and SQLite. It stores synthetic contacts and enquiries, a staff owner, sales stage, next follow-up and activity history. Email sync, club permissions and production hosting are future work.
+
 ### Regime Switching & Multi-Expert Market Prediction
 
 April–June 2026. The research used Gaussian HMMs to identify five market regimes, with six features and 20-day windows over 19 Chinese A-share stocks and ETFs (daily data, 2018–2024). It compared global and regime-conditioned Logistic Regression, XGBoost, MLP and LSTM models, and examined MoE gating with training ablations, routing agreement and expert utilisation. Individual code and experiment contributions remain to be clarified.
@@ -18,9 +22,9 @@ April–June 2026. The research used Gaussian HMMs to identify five market regim
 
 The research document reports mean XGBoost directional accuracy of 51.4% → 56.3% (+4.9 percentage points) in historical held-out tests across 19 instruments. Three of four models passed the reported multiple-comparison-adjusted significance threshold. Learned MoE gating did not outperform direct HMM hard routing. This is predictive accuracy, not a trading return; the experiments have not been independently reproduced.
 
-### Machine Learning Multi-Factor Equity Research
+### Leakage-aware Stock Selection Research
 
-Independent project · September 2025–January 2026. Built momentum, value and quality equity factors, comparing Random Forest and XGBoost. Built PyTorch LSTM and Transformer models to study factor relationships with self-attention, and a Backtrader event-driven framework for strategy research and backtesting. No verified performance figures or public code link are available.
+Public Python project using a small A-share sample, seven price/volume factors, time-aware evaluation and Ridge, Random Forest and HistGradientBoosting comparisons. The frozen test did not establish a positive result. Code: github.com/laflame3/ml-quant-stock-selection.
 
 ## Experience
 
@@ -56,7 +60,7 @@ Contributed to developing and optimising cross-sectional moving-average mean-rev
 
 ### Tools & methods
 
-Python, pandas, NumPy, Matplotlib; PyTorch and Backtrader for model research and strategy backtesting. Interested in applications of Codex, Claude and OpenCode to research workflows. No measured productivity gains are asserted.
+Next.js, React, JavaScript, Node.js route handlers, Python, pandas, SQLite/SQL basics, Git/GitHub and Linux; experience designing agent and data workflows. No production SaaS deployment is claimed.
 
 
 ## Awards & honours

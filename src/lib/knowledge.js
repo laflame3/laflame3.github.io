@@ -1,5 +1,5 @@
 export const knowledge = {
-  "asOf": "2026-10-04",
+  "asOf": "2026-10-15",
   "sources": [
     {
       "id": "PROFILE",
@@ -48,6 +48,21 @@ export const knowledge = {
         "zh": "项目时间 · 本人确认"
       },
       "date": "2026-10-03"
+    },
+    {
+      "id": "PUBLIC-STOCK-REPO",
+      "label": {"en": "Public stock-selection repository", "zh": "公开选股仓库"},
+      "date": "2026-10-15"
+    },
+    {
+      "id": "PUBLIC-CRM-REPO",
+      "label": {"en": "Fairway Desk prototype source", "zh": "Fairway Desk 原型代码"},
+      "date": "2026-10-15"
+    },
+    {
+      "id": "PUBLIC-PORTFOLIO-REPO",
+      "label": {"en": "Public Next.js portfolio repository", "zh": "公开 Next.js 作品集仓库"},
+      "date": "2026-10-15"
     },
     {
       "id": "U030",
@@ -305,35 +320,50 @@ export const knowledge = {
     {
       "id": "project-equity",
       "section": "projects",
-      "basis": [
-        "CV-EN02"
-      ],
-      "date": "2026-10-04",
+      "basis": ["PUBLIC-STOCK-REPO"],
+      "date": "2026-10-15",
       "publicCandidate": true,
       "en": {
-        "title": "Machine Learning Multi-Factor Equity Research",
-        "text": "Independent project · September 2025–January 2026. Built momentum, value and quality equity factors, comparing Random Forest and XGBoost. Built PyTorch LSTM and Transformer models to study factor relationships with self-attention, and a Backtrader event-driven framework for strategy research and backtesting. No verified performance figures or public code link are available."
+        "title": "Leakage-aware Stock Selection Research",
+        "text": "Public Python project using a small A-share sample, seven price/volume factors, time-aware evaluation and Ridge, Random Forest and HistGradientBoosting comparisons. The frozen test did not establish a positive result. Code: github.com/laflame3/ml-quant-stock-selection."
       },
       "zh": {
-        "title": "机器学习多因子选股研究",
-        "text": "个人独立项目 · 2025年9月–2026年1月。构建动量、价值、质量因子，对比 Random Forest 与 XGBoost；用 PyTorch 搭建 LSTM 和 Transformer，以自注意力研究因子关系；搭建 Backtrader 事件驱动回测框架。尚未提供已验证业绩或公开代码链接。"
+        "title": "防数据泄漏的选股研究",
+        "text": "公开 Python 项目：以小规模 A 股样本、7 个价量因子和时间顺序评估，对比 Ridge、Random Forest 与 HistGradientBoosting。冻结测试未得出正向结果。代码：github.com/laflame3/ml-quant-stock-selection。"
+      }
+    },
+    {
+      "id": "project-crm",
+      "section": "projects",
+      "basis": ["PUBLIC-CRM-REPO"],
+      "date": "2026-10-15",
+      "publicCandidate": true,
+      "en": {
+        "title": "Fairway Desk · CRM Prototype",
+        "text": "Independent local prototype for a golf club membership enquiry workflow. Built with Next.js/React, Node.js route handlers and SQLite. It stores synthetic contacts and enquiries, a staff owner, sales stage, next follow-up and activity history. Email sync, club permissions and production hosting are future work."
+      },
+      "zh": {
+        "title": "Fairway Desk · CRM 原型",
+        "text": "独立构建的高尔夫俱乐部会员咨询本地原型，使用 Next.js/React、Node.js 路由接口和 SQLite。以模拟资料记录联系人、咨询、负责人、阶段、下次跟进和活动历史。邮件同步、俱乐部权限与生产部署仍是后续工作。"
       }
     },
     {
       "id": "skills",
       "section": "skills",
       "basis": [
-        "CV-EN02"
+        "PUBLIC-CRM-REPO",
+        "PUBLIC-STOCK-REPO",
+        "PUBLIC-PORTFOLIO-REPO"
       ],
       "date": "2026-10-04",
       "publicCandidate": true,
       "en": {
         "title": "Tools & methods",
-        "text": "Python, pandas, NumPy, Matplotlib; PyTorch and Backtrader for model research and strategy backtesting. Interested in applications of Codex, Claude and OpenCode to research workflows. No measured productivity gains are asserted."
+        "text": "Next.js, React, JavaScript, Node.js route handlers, Python, pandas, SQLite/SQL basics, Git/GitHub and Linux; experience designing agent and data workflows. No production SaaS deployment is claimed."
       },
       "zh": {
         "title": "工具与方法",
-        "text": "Python、pandas、NumPy、Matplotlib；结合 PyTorch 和 Backtrader 进行模型研究与策略回测。关注 Codex、Claude、OpenCode 在研究工作流中的应用。不声明实测效率提升。"
+        "text": "Next.js、React、JavaScript、Node.js 路由接口、Python、pandas、SQLite/SQL 基础、Git/GitHub 与 Linux；有 Agent 和数据工作流设计经验。不声明生产级 SaaS 部署。"
       }
     },
     {

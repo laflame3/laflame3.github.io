@@ -16,7 +16,7 @@ GitHub Actions builds and deploys `out/` after a push to main. GitHub Pages is c
 
 ## Content and assistant
 
-Career content is a review profile based on selected English v02 / Chinese v09 CV material dated 4 October 2026; design updated 6 October 2026. KCL MSc is in progress, expected 2027. Research-document accuracy is not a trading return; individual contribution details and existing review limitations are retained. Only selected public career summaries are included.
+Career content combines selected CV material with the public portfolio and stock-selection repositories and the independent Fairway Desk CRM prototype as of 15 October 2026. KCL MSc is in progress, expected 2027. Research-document accuracy is not a trading return; individual contribution details and existing review limitations are retained. Only selected public career summaries are included.
 
 Ask Me performs deterministic local retrieval. It does not call an LLM, speak for Yanxi in real time, send questions to a server or save them. Source labels describe selected records and their dates, rather than independently verified achievements. Phone numbers, raw CV files and internal employer material are not included. The web CV supports browser printing; original-format downloads await selection.
 
