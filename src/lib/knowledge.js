@@ -56,7 +56,7 @@ export const knowledge = {
     },
     {
       "id": "PUBLIC-CRM-REPO",
-      "label": {"en": "Fairway Desk prototype source", "zh": "Fairway Desk 原型代码"},
+      "label": {"en": "Enquiry Desk prototype source", "zh": "Enquiry Desk 原型代码"},
       "date": "2026-10-15"
     },
     {
@@ -339,12 +339,12 @@ export const knowledge = {
       "date": "2026-10-15",
       "publicCandidate": true,
       "en": {
-        "title": "Fairway Desk · CRM Prototype",
-        "text": "Independent local prototype for a golf club membership enquiry workflow. Built with Next.js/React, Node.js route handlers and SQLite. It stores synthetic contacts and enquiries, a staff owner, sales stage, next follow-up and activity history. Email sync, club permissions and production hosting are future work."
+        "title": "Enquiry Desk · CRM Prototype",
+        "text": "Independent local customer enquiry and follow-up CRM prototype for service teams. Built with Next.js/React, Node.js route handlers and SQLite. It stores synthetic contacts and membership, booking or general enquiries, a staff owner, stage, next follow-up and activity history. A golf club is one possible use case; email sync, tenant permissions and production hosting are future work."
       },
       "zh": {
-        "title": "Fairway Desk · CRM 原型",
-        "text": "独立构建的高尔夫俱乐部会员咨询本地原型，使用 Next.js/React、Node.js 路由接口和 SQLite。以模拟资料记录联系人、咨询、负责人、阶段、下次跟进和活动历史。邮件同步、俱乐部权限与生产部署仍是后续工作。"
+        "title": "Enquiry Desk · CRM 原型",
+        "text": "独立构建的服务团队客户咨询与跟进 CRM 本地原型，使用 Next.js/React、Node.js 路由接口和 SQLite。以模拟资料记录联系人、会员、预订或一般咨询、负责人、阶段、下次跟进和活动历史。高尔夫俱乐部是一个应用场景；邮件同步、多租户权限与生产部署仍是后续工作。"
       }
     },
     {
